@@ -17,10 +17,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-# cacheSolve computes the inverse of the matrix returned by 
-# makeCacheMatrix function above. If the inverse has already been calculated 
-# and the matrix is same, then the cachesolve should retrieve the 
-# inverse from the cache.
+# cacheSolve computes the inverse of the matrix returned by
+# makeCacheMatrix function above. If the inverse has already
+# been calculated and the matrix is same,
+# then the cachesolve should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
   inverse_matrix <- x$get_inverse()
